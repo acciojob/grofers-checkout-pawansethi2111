@@ -21,4 +21,4 @@ let sum = 0
 
 getSumBtn.addEventListener("click", getSum);
 
-monthly.innerText = sum;
+"".innerText = sum;
