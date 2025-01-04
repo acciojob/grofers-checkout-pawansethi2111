@@ -5,7 +5,6 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-// let monthly = document.getElementByClassName('monthly');
 let td = document.createElement("td");
 let tr = document.createElement("tr");
 let table = document.querySelector("table tbody");
