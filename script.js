@@ -9,7 +9,7 @@ let td = document.createElement("td");
 let tr = document.createElement("tr");
 let table = document.querySelector("table tbody");
 let prices = document.querySelectorAll('.price');
-let sum = 0
+let sum = 0;
 	for(let t of prices){
 		sum+= +t.innerHTML;
 	}
